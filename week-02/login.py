@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
-load_dotenv()
 import os
+load_dotenv(override=True)
 import tableauserverclient as TSC
 
 # create an auth object
